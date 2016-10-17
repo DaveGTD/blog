@@ -6,7 +6,7 @@ class PagesController extends Controller {
 
 	public function getAbout()
 	{
-		return "Hello Contact Page";
+		return view('about');
 	}
 
 }
