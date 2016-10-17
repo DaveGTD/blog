@@ -6,7 +6,8 @@ class PagesController extends Controller {
 
 	public function getAbout()
 	{
-		return view('about');
+		$name = 'Dave';
+		return view('about')->with("full_name", $name);
 	}
 
 }
