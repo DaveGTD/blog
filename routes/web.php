@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('about', 'PageController@getAbout');
+Route::get('about', 'PagesController@getAbout');
 
 
 Route::get('/', function () {
